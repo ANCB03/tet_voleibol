@@ -21,7 +21,7 @@ public class EvaluacionEntrenamientoSaltoController {
     }
 
     @PostMapping("/guardar")
-    public void guardarJugador(EvaluacionEntrenamientoSalto evaluacionEntrenamientoSalto){
+    public void guardarJugador(@RequestBody EvaluacionEntrenamientoSalto evaluacionEntrenamientoSalto){
         evaluacionEntrenamientoSaltoService.guardar(evaluacionEntrenamientoSalto);
     }
 
