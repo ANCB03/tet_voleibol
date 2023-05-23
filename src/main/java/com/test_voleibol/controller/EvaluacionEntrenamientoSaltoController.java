@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
+@RequestMapping("/test")
 public class EvaluacionEntrenamientoSaltoController {
     @Autowired
     private EvaluacionEntrenamientoSaltoService evaluacionEntrenamientoSaltoService;
